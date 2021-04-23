@@ -1,12 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {useState} from 'react'
+import Home from './app/pages/home/home'
 
 
 function App() {
   return (
     <div className="App">
-
+      <Home />
     </div>
   );
 }
